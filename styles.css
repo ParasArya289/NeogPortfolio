@@ -3,7 +3,7 @@
 :root {
   --primary-color: #e11d48;
   --off-white: #f3f4f6;
-  --dark-gray: #6b7280;
+  --dark-gray: #ffffff;
 }
 
 body {
@@ -11,7 +11,7 @@ body {
   margin: 0px auto;
   max-width: 85%;
   width: 100%;
-  background-image: url("images/bgImage2.jpg");
+  background-image: url("images/bgImage.jpg");
   background-size:cover;
 }
 
@@ -81,8 +81,8 @@ hr {
   padding: 1rem;
   border-bottom-left-radius: 1rem;
 
-background: rgba( 255, 255, 255, 0.02 );
-backdrop-filter: blur( 10px );
+background: rgba( 255, 255, 255, 0.2);
+backdrop-filter: blur( 9px );
 border: 1px solid rgba(255, 255, 255, 0.05);
 /* box-shadow: 0 8px 32px 0 rgba(39, 38, 38, 0.37); */
 /* -webkit-backdrop-filter: blur( 3px ); */
@@ -117,6 +117,13 @@ border: 1px solid rgba(255, 255, 255, 0.05);
 
 /** header **/
 
+.img-container{
+  border-radius:100%;
+  height: 300px;
+  width: 300px;
+  margin: auto;
+}
+
 .hero {
   padding: 2rem;
   padding-top: 5rem;
@@ -124,9 +131,12 @@ border: 1px solid rgba(255, 255, 255, 0.05);
 
 .hero .hero-img {
   max-width: 80%;
-  width: 550px;
+  width: 250px;
+  height: 250px;
   display: block;
+  /* border-radius: 100%; */
   margin: auto;
+  padding: 30px;
 }
 
 .hero .hero-heading {
@@ -145,11 +155,11 @@ border: 1px solid rgba(255, 255, 255, 0.05);
 
 .section {
   padding: 2rem;
-  margin: 2rem 0;
+  margin: 2.5rem 0;
   border-radius: 1rem;
   text-align: center;
-
-  background: rgba( 255, 255, 255, 0.01 );
+  color:white;
+  background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur( 10px );
   border: 1px solid rgba(255, 255, 255, 0.05);
   
@@ -160,7 +170,7 @@ border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 .ow {
-  background: rgba( 255, 255, 255, 0.1 );
+  background: rgba(255, 255, 255, 0.01);
   backdrop-filter: blur( 10px );
   border: 1px solid rgba(255, 255, 255, 0.05);
 }
@@ -170,10 +180,11 @@ border: 1px solid rgba(255, 255, 255, 0.05);
 .footer {
   /* background-color: var(--primary-color); */
   padding: 2rem 1rem;
+  margin-top: 100px;
   text-align: center;
   color: white;
   border-top-right-radius: 1rem;
-  background: rgba( 255, 255, 255, 0.02 );
+  background: rgba( 255, 255, 255, 0.2 );
   backdrop-filter: blur( 10px );
   border: 1px solid rgba(255, 255, 255, 0.05);
 }
@@ -208,9 +219,12 @@ border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 /** blogs **/
-
+.title-blog{
+  color:var(--primary-color);
+}
 .showcase-blog {
   padding-bottom: 6rem;
+  color:white;
 }
 
 @media (max-width: 900px) {
@@ -221,7 +235,7 @@ border: 1px solid rgba(255, 255, 255, 0.05);
 
   .list-item-inline {
     display: inline;
-    padding: 0rem;
+    padding: 1rem;
   }
 
   .container-center {
