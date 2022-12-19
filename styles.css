@@ -12,7 +12,7 @@ body {
   margin: 0px auto;
   max-width: 85%;
   width: 100%;
-  background-image: url("images/bgImage.jpg");
+  background-image: url("images/bgImage16.jpg");
   background-size:cover;
 }
 
@@ -77,17 +77,13 @@ hr {
 /** navigation **/
 
 .navigation {
-  /* background-color: var(--primary-color); */
   color: white;
   padding: 1rem;
   border-bottom-left-radius: 1rem;
 
-background: rgba( 255, 255, 255, 0.2);
-backdrop-filter: blur( 9px );
-border: 1px solid rgba(255, 255, 255, 0.05);
-/* box-shadow: 0 8px 32px 0 rgba(39, 38, 38, 0.37); */
-/* -webkit-backdrop-filter: blur( 3px ); */
-/* border-radius: 10px; */
+background: rgba(255, 255, 255, 0.2);
+backdrop-filter: blur( 15px );
+border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .navigation .nav-brand {
@@ -123,8 +119,8 @@ border: 1px solid rgba(255, 255, 255, 0.05);
   height: 300px;
   width: 300px;
   margin: auto;
-}
 
+}
 .hero {
   padding: 2rem;
   padding-top: 5rem;
@@ -161,9 +157,8 @@ border: 1px solid rgba(255, 255, 255, 0.05);
   text-align: center;
   color:white;
   background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur( 10px );
-  border: 1px solid rgba(255, 255, 255, 0.05);
-  
+  backdrop-filter: blur( 15px );
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .section h1 {
@@ -172,14 +167,13 @@ border: 1px solid rgba(255, 255, 255, 0.05);
 
 .ow {
   background: rgba(255, 255, 255, 0.01);
-  backdrop-filter: blur( 10px );
-  border: 1px solid rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur( 15px );
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 /** footers **/
 
 .footer {
-  /* background-color: var(--primary-color); */
   padding: 2rem 1rem;
   margin-top: 100px;
   text-align: center;
@@ -187,8 +181,12 @@ border: 1px solid rgba(255, 255, 255, 0.05);
   border-top-right-radius: 1rem;
   background: rgba( 255, 255, 255, 0.2 );
   backdrop-filter: blur( 10px );
-  border: 1px solid rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
+
+/* .icon{
+  padding-top:rem;
+} */
 
 .footer .link {
   color: white;
@@ -231,7 +229,7 @@ border: 1px solid rgba(255, 255, 255, 0.05);
 @media (max-width: 900px) {
   body {
     max-width: 95%;
-    width: 100%;
+    width: 95%;
   }
 
   .list-item-inline {
