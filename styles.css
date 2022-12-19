@@ -45,21 +45,42 @@ hr {
 }
 
 .link-primary {
-  max-width: 140px;
+  /* max-width: 140px;
   padding: 0.6rem 1.2rem;
   background-color: var(--primary-color);
   color: #fff;
   margin: 1rem auto;
+  border-radius: 2rem; */
+  max-width: 140px;
+  padding: 0.6rem 1.2rem;
+  color: #fff;
+  margin: 1rem auto;
   border-radius: 2rem;
+  background: rgba( 255, 255, 255, 0.1 );
+  backdrop-filter: blur( 10px );
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .link-secondary {
-  max-width: 140px;
+  /* max-width: 140px;
   margin: 1rem;
   padding: 0.6rem 1.2rem;
   border-radius: 2rem;
   border: 1px solid var(--primary-color);
-  color: var(--primary-color);
+  color: var(--primary-color); */
+  max-width: 140px;
+  padding: 0.6rem 1.2rem;
+  color: #fff;
+  margin: 1rem auto;
+  border-radius: 2rem;
+  background: rgba( 255, 255, 255,0);
+  border: 1px solid rgba( 255, 255, 255, 0.5 );
+
+}
+
+.link-primary:hover,.link-secondary:hover {
+  /* backdrop-filter: blur( 20px ); */
+  background: rgba( 255, 255, 255,0.3 );
 }
 
 /** lists **/
