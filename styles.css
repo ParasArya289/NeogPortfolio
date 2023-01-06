@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&family=Roboto:wght@100&display=swap");
 
 :root {
   --primary-color: #ffffff;
@@ -240,7 +240,10 @@ hr {
 .showcase-blog {
   padding-bottom: 6rem;
   color: white;
+  text-align: left;
+  /* font-weight: 400; */
 }
+
 
 @media (max-width: 900px) {
   body {
