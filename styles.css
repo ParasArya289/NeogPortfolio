@@ -82,7 +82,6 @@ hr {
   display: inline;
   padding: 0rem 0.5rem;
 }
-
 /** navigation **/
 
 .navigation {
@@ -135,6 +134,8 @@ hr {
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
   border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.5s ease-out;
+
 }
 
 .hero {
@@ -148,7 +149,6 @@ hr {
   border-radius: 100%;
   margin: auto;
 }
-
 .hero .hero-heading {
   text-align: center;
   padding-top: 0.2rem;
@@ -157,9 +157,11 @@ hr {
 }
 
 .hero .hero-heading .heading-inverted {
-  color: var(--primary-color);
   font-size: 30px;
+  color:var(--primary-color);
+  
 }
+
 
 /** sections **/
 
